@@ -34,7 +34,7 @@ body {
 .landing-page {
   height: 100vh;
   top: 0;
-  background-image: url(/html_css-projekt-2-karolina-sobczak/assets/images/background-photo.jpg);
+  background-image: url(/GitHub_Project/HTML_CSS_Webside_page_projekt2_RWD/assets/images/background-photo.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -137,11 +137,11 @@ body {
 }
 
 .employee-image1 {
-  background-image: url(/html_css-projekt-2-karolina-sobczak/assets/images/employee1_photo.jpg);
+  background-image: url(/GitHub_Project/HTML_CSS_Webside_page_projekt2_RWD/assets/images/employee1_photo.jpg);
 }
 
 .employee-image2 {
-  background-image: url(/html_css-projekt-2-karolina-sobczak/assets/images/employee2_photo.jpeg);
+  background-image: url(/GitHub_Project/HTML_CSS_Webside_page_projekt2_RWD/assets/images/employee2_photo.jpeg);
 }
 
 .employee-info {
