@@ -1,0 +1,482 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.page-container {
+  width: auto;
+  margin: 0 auto;
+}
+
+.page-navbar {
+  background-color: #4e4e4e;
+  height: 20px;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.company-name {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.link-container {
+  display: none;
+}
+
+.landing-page {
+  height: 100vh;
+  top: 0;
+  background-image: url(/html_css-projekt-2-karolina-sobczak/assets/images/background-photo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+}
+
+.landing-page-shadow {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.15);
+  padding: 20px;
+}
+
+.main-slogan {
+  width: 90%;
+  margin-top: 40%;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.second-slogan {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.button-offer {
+  height: 40px;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  border: 3px solid #ffffff;
+  background-color: rgba(196, 196, 196, 0);
+  transition: background-color 1s linear color 1s linear;
+}
+
+.button-offer a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 50px;
+}
+
+.button-offer:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.button-offer a:hover {
+  color: black;
+}
+
+.about {
+  background-color: rgba(241, 241, 241, 1);
+  color: rgba(21, 45, 65, 1);
+  padding: 20px;
+}
+
+.about-title {
+  margin-top: 50px;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 42px;
+}
+
+.employees-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  line-height: 21px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 50px;
+  align-items: center;
+}
+
+.employee {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  gap: 40px;
+  text-align: justify;
+}
+
+.employee-image {
+  width: 190px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  align-self: center;
+  background-size: cover;
+  background-position: center center;
+}
+
+.employee-image1 {
+  background-image: url(/html_css-projekt-2-karolina-sobczak/assets/images/employee1_photo.jpg);
+}
+
+.employee-image2 {
+  background-image: url(/html_css-projekt-2-karolina-sobczak/assets/images/employee2_photo.jpeg);
+}
+
+.employee-info {
+  font-size: 18px;
+}
+
+.name {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.info {
+  font-weight: 400;
+}
+
+.offer {
+  background-color: rgba(64, 93, 120, 1);
+  display: flex;
+  flex-direction: column;
+}
+
+.offer-shadow {
+  background: rgba(0, 0, 0, 0.15);
+  height: 100%;
+  padding: 20px;
+}
+
+.offer-title {
+  color: rgba(255, 255, 255, 1);
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 30px;
+}
+
+.offer-container {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.box {
+  width: 310px;
+  height: 310px;
+  background-color: rgba(241, 241, 241, 1);
+  color: rgba(0, 0, 0, 1);
+  line-height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.offer-box1 {
+  flex-direction: column;
+  position: relative;
+}
+
+.box1-eclise {
+  width: 35px;
+  aspect-ratio: 1;
+  background-color: rgba(224, 122, 100, 1);
+  border-radius: 50%;
+  position: absolute;
+  top: -17px;
+  left: -17px;
+}
+
+.offer1-text1,
+.offer-box {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.offer1-text2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.page-footer {
+  background-color: rgba(78, 78, 78, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  gap: 20px;
+}
+
+.footer-text {
+  margin-top: 10px;
+}
+
+.insta-fb-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+@media screen and (min-width: 577px) {
+  .page-navbar {
+    justify-content: space-between;
+  }
+
+  .link-container {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+  }
+
+  .nav-link {
+    color: #f1f1f1;
+    text-decoration: none;
+  }
+
+  .nav-contact {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+
+  .main-slogan {
+    width: 80%;
+    margin-top: 30%;
+  }
+
+  .about-title {
+    text-align: start;
+  }
+
+  .employee {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .employees-container .employee:nth-of-type(even) {
+    .employee-info {
+      margin-top: 20px;
+      order: -1;
+      text-align: right;
+    }
+  }
+
+  .employee-image {
+    align-self: auto;
+  }
+
+  .employee-info {
+    width: 60%;
+  }
+
+  .offer-title {
+    text-align: start;
+    font-size: 26px;
+  }
+
+  .offer-container {
+    gap: 50px;
+  }
+
+  .box {
+    width: 250px;
+    height: 250px;
+  }
+
+  .box1-eclise {
+    width: 30px;
+  }
+
+  .page-footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-text {
+    margin-top: 0;
+  }
+
+  .insta-fb-container {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .page-container {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  .page-navbar {
+    height: 50px;
+    padding: 10px;
+    justify-content: space-between;
+  }
+
+  .company-name {
+    margin-left: 50px;
+  }
+
+  .link-container {
+    margin-right: 50px;
+    list-style-type: none;
+    display: flex;
+    gap: 45px;
+  }
+
+  .nav-link {
+    color: #f1f1f1;
+    text-decoration: none;
+  }
+
+  .nav-contact {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+
+  .landing-page-shadow {
+    padding: 10px;
+  }
+
+  .main-slogan {
+    width: 60%;
+    margin-top: 25%;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .second-slogan {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 60px;
+  }
+
+  .button-offer {
+    margin-left: 50px;
+    margin-top: 60px;
+  }
+
+  .about {
+    padding: 10px;
+  }
+
+  .about-title {
+    margin-left: 50px;
+    margin-top: 60px;
+    text-align: start;
+  }
+
+  .employees-container {
+    margin: 60px 50px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .employee {
+    flex-direction: row;
+  }
+
+  .employees-container .employee:nth-of-type(even) {
+    .employee-info {
+      order: -1;
+      text-align: right;
+    }
+  }
+
+  .employee-info {
+    width: 70%;
+  }
+
+  .offer {
+    background-color: rgba(64, 93, 120, 1);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .offer-shadow {
+    padding: 10px;
+  }
+
+  .offer-title {
+    margin-left: 50px;
+    margin-top: 60px;
+    font-size: 35px;
+    text-align: start;
+  }
+
+  .offer-container {
+    width: 60%;
+    height: 60%;
+    margin: 60px auto;
+    justify-content: space-evenly;
+    gap: 15px;
+  }
+
+  .box {
+    width: 170px;
+    height: 170px;
+  }
+
+  .box1-eclise {
+    width: 22px;
+    height: 22px;
+    top: -10px;
+    left: -10px;
+  }
+
+  .page-footer {
+    height: 70px;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .footer-text {
+    margin-top: 0;
+    margin-left: 50px;
+  }
+
+  .insta-fb-container {
+    margin-right: 50px;
+    margin-bottom: 0;
+    gap: 20px;
+  }
+}
