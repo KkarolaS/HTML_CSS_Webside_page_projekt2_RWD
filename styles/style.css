@@ -81,16 +81,6 @@ body {
   padding: 10px 50px;
 }
 
-.button-offer:hover {
-  background-color: white;
-  color: black;
-  cursor: pointer;
-}
-
-.button-offer a:hover {
-  color: black;
-}
-
 .about {
   background-color: rgba(241, 241, 241, 1);
   color: rgba(21, 45, 65, 1);
@@ -185,6 +175,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  flex-direction: column;
   gap: 40px;
 }
 
@@ -197,11 +188,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: transform 0.5s ease;
-}
-
-.box:hover {
-  transform: scale(1.05);
 }
 
 .offer-box1 {
@@ -259,19 +245,7 @@ body {
   }
 
   .link-container {
-    list-style-type: none;
-    display: flex;
-    gap: 50px;
-  }
-
-  .nav-link {
-    color: #f1f1f1;
-    text-decoration: none;
-  }
-
-  .nav-contact {
-    cursor: not-allowed;
-    opacity: 0.5;
+    display: none;
   }
 
   .main-slogan {
@@ -279,61 +253,8 @@ body {
     margin-top: 30%;
   }
 
-  .about-title {
-    text-align: start;
-  }
-
-  .employee {
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-  }
-
-  .employees-container .employee:nth-of-type(even) {
-    .employee-info {
-      margin-top: 20px;
-      order: -1;
-      text-align: right;
-    }
-  }
-
-  .employee-image {
-    align-self: auto;
-  }
-
-  .employee-info {
-    width: 60%;
-  }
-
   .offer-title {
-    text-align: start;
     font-size: 26px;
-  }
-
-  .offer-container {
-    gap: 50px;
-  }
-
-  .box {
-    width: 250px;
-    height: 250px;
-  }
-
-  .box1-eclise {
-    width: 30px;
-  }
-
-  .page-footer {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .footer-text {
-    margin-top: 0;
-  }
-
-  .insta-fb-container {
-    margin-bottom: 0;
   }
 }
 
@@ -390,6 +311,15 @@ body {
   .button-offer {
     margin-left: 50px;
     margin-top: 60px;
+  }
+  .button-offer:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+
+  .button-offer a:hover {
+    color: black;
   }
 
   .about {
@@ -452,6 +382,11 @@ body {
   .box {
     width: 170px;
     height: 170px;
+    transition: transform 0.5s ease;
+  }
+
+  .box:hover {
+    transform: scale(1.05);
   }
 
   .box1-eclise {
