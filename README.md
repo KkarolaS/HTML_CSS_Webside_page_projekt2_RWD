@@ -1,4 +1,4 @@
-# HTML_CSS-Projekt 1 - Webside first page for a company
+# HTML_CSS-Projekt 2 - Webside page for a company RWD
 
 ## Welcome to my webside project (HTML + CSS)
 
