@@ -1,6 +1,6 @@
-# HTML_CSS-Projekt 2 - Webside page for a company RWD
+# HTML_CSS-Projekt 2 - Website page for a company RWD
 
-## Welcome to my webside project (HTML + CSS)
+## Welcome to my website project (HTML + CSS)
 
 Hi! I'm Caroline and you can see here my next project - webside page's created with HTML and CSS for mobile, tablets and bigger desktop (RWD).
 Below you can find some link to project's repository in GitHub and also link to Netlify.
