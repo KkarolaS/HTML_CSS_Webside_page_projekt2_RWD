@@ -2,7 +2,7 @@
 
 ## Welcome to my website project (HTML + CSS)
 
-Hi! I'm Caroline and you can see here my next project - webside page's created with HTML and CSS for mobile, tablets and bigger desktop (RWD).
+Hi! I'm Caroline and you can see here my next project - website page's created with HTML and CSS for mobile, tablets and bigger desktop (RWD).
 Below you can find some link to project's repository in GitHub and also link to Netlify.
 
 ## Link to GitHub Repo
