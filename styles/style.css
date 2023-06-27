@@ -72,13 +72,13 @@ body {
   line-height: 21px;
   border: 3px solid #ffffff;
   background-color: rgba(196, 196, 196, 0);
-  transition: background-color 1s linear color 1s linear;
 }
 
 .button-offer a {
   text-decoration: none;
   color: #ffffff;
   padding: 10px 50px;
+  font-family: "Roboto", sans-serif;
 }
 
 .about {
@@ -155,7 +155,6 @@ body {
 
 .offer-shadow {
   background: rgba(0, 0, 0, 0.15);
-  height: 100%;
   padding: 20px;
 }
 
@@ -219,26 +218,29 @@ body {
 .page-footer {
   background-color: rgba(78, 78, 78, 1);
   color: rgba(255, 255, 255, 1);
+  height: 100px;
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   align-content: center;
   gap: 20px;
 }
 
-.footer-text {
-  margin-top: 10px;
-}
-
 .insta-fb-container {
-  margin-bottom: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 20px;
 }
 
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
 @media screen and (min-width: 577px) {
   .page-navbar {
     justify-content: space-between;
@@ -258,24 +260,29 @@ body {
   }
 }
 
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
 @media screen and (min-width: 992px) {
   .page-container {
+    width: auto;
+  }
+
+  .container {
     width: 960px;
     margin: 0 auto;
   }
 
   .page-navbar {
     height: 50px;
-    padding: 10px;
+    padding: 10px 0;
     justify-content: space-between;
   }
 
-  .company-name {
-    margin-left: 50px;
-  }
-
   .link-container {
-    margin-right: 50px;
     list-style-type: none;
     display: flex;
     gap: 45px;
@@ -292,26 +299,25 @@ body {
   }
 
   .landing-page-shadow {
-    padding: 10px;
+    padding: 10px 0;
   }
 
   .main-slogan {
     width: 60%;
     margin-top: 25%;
-    margin-left: 50px;
     margin-right: 50px;
   }
 
   .second-slogan {
-    margin-left: 50px;
     margin-right: 50px;
     margin-top: 60px;
   }
 
   .button-offer {
-    margin-left: 50px;
     margin-top: 60px;
+    transition: background-color 1s linear, color 1s linear;
   }
+
   .button-offer:hover {
     background-color: white;
     color: black;
@@ -323,23 +329,22 @@ body {
   }
 
   .about {
-    padding: 10px;
+    padding: 10px 0;
   }
 
   .about-title {
-    margin-left: 50px;
     margin-top: 60px;
     text-align: start;
   }
 
   .employees-container {
-    margin: 60px 50px;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
   }
 
   .employee {
     flex-direction: row;
+    justify-content: space-between;
   }
 
   .employees-container .employee:nth-of-type(even) {
@@ -354,34 +359,33 @@ body {
   }
 
   .offer {
-    background-color: rgba(64, 93, 120, 1);
-    height: 600px;
-    display: flex;
-    flex-direction: column;
+    height: 689px;
+    flex-direction: row;
   }
 
   .offer-shadow {
-    padding: 10px;
+    padding: 10px 0;
+    width: 100%;
   }
 
   .offer-title {
-    margin-left: 50px;
     margin-top: 60px;
     font-size: 35px;
     text-align: start;
   }
 
   .offer-container {
-    width: 60%;
-    height: 60%;
+    width: 720px;
+    height: 450px;
     margin: 60px auto;
+    flex-direction: row;
     justify-content: space-evenly;
-    gap: 15px;
+    gap: 60px;
   }
 
   .box {
-    width: 170px;
-    height: 170px;
+    width: 198px;
+    height: 198px;
     transition: transform 0.5s ease;
   }
 
@@ -398,20 +402,11 @@ body {
 
   .page-footer {
     height: 70px;
-    padding: 10px;
+    padding: 10px 0;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    align-content: center;
     gap: 0;
-  }
-
-  .footer-text {
-    margin-top: 0;
-    margin-left: 50px;
-  }
-
-  .insta-fb-container {
-    margin-right: 50px;
-    margin-bottom: 0;
-    gap: 20px;
   }
 }
