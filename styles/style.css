@@ -11,10 +11,12 @@ body {
   margin: 0 auto;
 }
 
+.header {
+  padding: 20px;
+}
 .page-navbar {
   background-color: #4e4e4e;
   height: 20px;
-  padding: 20px;
   display: flex;
   gap: 10px;
   justify-content: flex-start;
